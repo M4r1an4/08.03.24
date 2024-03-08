@@ -1,0 +1,66 @@
+body{
+    max-width: 400px; /*tamanho maximo da tela*/
+    margin: 0 auto;
+    padding: 20px; /*margin interna do obj*/
+    border: 1px solid#ccc;
+    border-radius: 5px; /*deixa redondimho*/
+
+}
+
+h1{
+    text-align: center;
+}
+
+form{/*componente formulario interno*/
+    display: flex;
+    flex-direction: column;
+
+}
+
+label{
+    margin-top: 10px;
+}
+
+input{
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-shadow: 0 5px 10px rgba(rgb(37, 110, 170));
+    
+    
+   
+}
+
+button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: rgb(46, 138, 168);
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 5px;
+    border:none;
+
+}
+
+button:hover{
+    /*hover é uma pseudo-classe, 
+    que faz com que mude o css 
+    caso o cursor do cliente esteja sobre o componente*/
+
+    background-color: rgb(185, 213, 236);
+    transform: scale(1);
+
+
+}
+
+.check{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#check{
+    margin-right: 15px;
+
+}
